@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Spotify',
+			icon: 'headphones',
+			link: 'https://open.spotify.com',
 		},
 		{
 			id: '4',
@@ -165,12 +165,12 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Learncpp',
+					link: 'https://www.learncpp.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'HackerRank',
+					link: 'https://www.hackerrank.com/',
 				},
 				{
 					name: 'Slack',
