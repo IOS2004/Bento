@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '23.181467',
+	defaultLongitude: '79.986404',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -71,14 +71,14 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Linkedin',
+			icon: 'linkedin',
+			link: 'https://www.linkedin.com',
 		},
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'message-circle',
 			link: 'https://reddit.com',
 		},
 		{
@@ -173,8 +173,8 @@ const CONFIG = {
 					link: 'https://www.hackerrank.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'MyNoise',
+					link: 'https://mynoise.net/NoiseMachines/forty40HzBrainwaveGenerator.php',
 				},
 			],
 		},
