@@ -144,8 +144,7 @@ const CONFIG = {
 				},
 				{
 					name: 'OpenDSA',
-					link: 'https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/
-',
+					link: 'https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/',
 				},
 				{
 					name: 'visual Algo',
