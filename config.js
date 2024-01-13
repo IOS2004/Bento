@@ -139,7 +139,7 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Striver DSA',
+					name: 'StriverDSA',
 					link: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
 				},
 				{
@@ -147,12 +147,12 @@ const CONFIG = {
 					link: 'https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/',
 				},
 				{
-					name: 'visual Algo',
-					link: 'visualgo.net/',
+					name: 'Visualgo',
+					link: 'https://visualgo.net/en',
 				},
 				{
-					name: 'chat gpt',
-					link: 'chat.openai.com/',
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com/',
 				},
 			],
 		},
