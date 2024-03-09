@@ -157,7 +157,7 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'binary',
 			id: '2',
 			links: [
 				{
@@ -169,8 +169,8 @@ const CONFIG = {
 					link: 'https://www.learncpp.com/',
 				},
 				{
-					name: 'HackerRank',
-					link: 'https://www.hackerrank.com/',
+					name: 'LeetCode',
+					link: 'https://leetcode.com/',
 				},
 				{
 					name: 'MyNoise',
