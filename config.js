@@ -161,12 +161,12 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'CodeForces',
+					link: 'https://codeforces.com/',
 				},
 				{
-					name: 'Learncpp',
-					link: 'https://www.learncpp.com/',
+					name: 'TypingClub',
+					link: 'https://www.typingclub.com/',
 				},
 				{
 					name: 'LeetCode',
