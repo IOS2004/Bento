@@ -147,8 +147,8 @@ const CONFIG = {
 					link: 'https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/',
 				},
 				{
-					name: 'Visualgo',
-					link: 'https://visualgo.net/en',
+					name: 'YouTube Music',
+					link: 'https://music.youtube.com/',
 				},
 				{
 					name: 'ChatGPT',
