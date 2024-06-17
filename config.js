@@ -143,8 +143,8 @@ const CONFIG = {
 					link: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
 				},
 				{
-					name: 'OpenDSA',
-					link: 'https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/',
+					name: 'The Odin Project',
+					link: 'https://www.theodinproject.com/dashboard',
 				},
 				{
 					name: 'YouTube Music',
