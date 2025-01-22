@@ -1,4 +1,4 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
+	// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
 // ╠╩╗║╣ ║║║ ║ ║ ║
 // ╚═╝╚═╝╝╚╝ ╩ ╚═╝
 // ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'message-circle',
-			link: 'https://reddit.com',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '6',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: '',
+			icon: '',
+			link: '',
 		},
 	],
 
