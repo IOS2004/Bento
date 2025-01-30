@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: '',
-			icon: '',
-			link: '',
+			name: 'React',
+			icon: 'component',
+			link: 'https://scrimba.com/learn-react-c0e',
 		},
 		{
 			id: '6',
-			name: '',
-			icon: '',
-			link: '',
+			name: 'DeepSeek',
+			icon: 'fish-symbol',
+			link: 'https://chat.deepseek.com/',
 		},
 	],
 
