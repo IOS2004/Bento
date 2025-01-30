@@ -35,18 +35,18 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
+  --accent: #FF4747 ; /* Hover color */
   --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --cards: rgba(20, 20, 20, 0.6); /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
+  --fg: #00E0FF; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.45)
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.35)
   ); /* Filter color */
 }
 
@@ -109,13 +109,17 @@ body {
 
 .card {
   background-color: var(--cards);
+ backdrop-filter: blur(2px);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
+    border: #FF3131; /* Subtle red border */
+    transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: translateY(-0.2rem);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+  
+  box-shadow: 0px 0px 10px #FF4747;
 }
 
 .timeBlock {
