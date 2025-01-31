@@ -79,7 +79,7 @@ const CONFIG = {
 			id: '5',
 			name: 'React',
 			icon: 'component',
-			link: 'https://scrimba.com/learn-react-c0e',
+			link: 'https://react.dev/learn',
 		},
 		{
 			id: '6',
