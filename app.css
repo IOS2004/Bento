@@ -99,12 +99,13 @@ body {
 
 .container {
   width: 145vh;
-  height: 85vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   grid-gap: 30px;
   padding: 20px;
+      grid-template-rows: 0.8fr 0.6fr 1.2fr 1.2fr 1.2fr; /* Adjusted row proportions */
+
 }
 
 .card {
@@ -365,3 +366,69 @@ body {
     padding-right: 100px;
   }
 }
+/* Search Block Styles */
+.searchBlock {
+    grid-row: 3;
+    grid-column: 1 / span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+#searchForm {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.searchContainer {
+    background-color: var(--cards);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.searchContainer:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0px 0px 10px var(--accent);
+}
+
+#searchInput {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2.5vh;
+    color: var(--fg);
+    padding-right: 15px;
+}
+
+#searchInput::placeholder {
+    color: var(--fg);
+    opacity: 0.7;
+}
+
+#searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--fg);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#searchButton i {
+    width: 5px;
+    height: 5px;
+}
+
+/* Adjust linksBlock position */
+.linksBlock {
+    grid-row: 4 / span 2;
+} 
